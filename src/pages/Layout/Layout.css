@@ -1,0 +1,45 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: rgb(45, 40, 47);
+  width: 100%;
+  position: fixed;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px;
+  top: 0;
+  left: 0;
+}
+
+.logo-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.links-list {
+  list-style: none;
+  width: 50%;
+  text-align: left;
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 30px;
+}
+
+.link-item {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-item:not(:last-of-type) {
+  margin-right: 10px;
+}

@@ -1,0 +1,147 @@
+.about-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  width: 1000px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.about-page h2 {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 100px;
+  text-align: center;
+}
+
+.item:first-of-type {
+  margin-top: 100px;
+}
+
+.item {
+  width: 300px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  margin: 0 auto;
+}
+
+.icon-box__warning {
+  width: 30px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 10px;
+  background: #f8b10c;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.icon-box__error {
+  width: 30px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 10px;
+  background: #f63b54;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.icon-box__info {
+  width: 30px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 10px;
+  background: #3b7df6;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.icon-box__success {
+  width: 30px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 10px;
+  background: #118138;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.item-warning {
+  width: 100%;
+  padding: 15px 20px;
+  background: #f2d9a0;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 0;
+  text-align: left;
+  position: relative;
+}
+
+.item-error {
+  width: 100%;
+  padding: 15px 20px;
+  background: #ea8794;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 0;
+  text-align: left;
+  position: relative;
+}
+
+.item-info {
+  width: 100%;
+  padding: 15px 20px;
+  background: #7ea7f5;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 0;
+  text-align: left;
+  position: relative;
+}
+
+.item-success {
+  width: 100%;
+  padding: 15px 20px;
+  background: #5fc282;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 0;
+  text-align: left;
+  position: relative;
+}
+
+.notification-text span {
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.notification-text p {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.notification-text p:last-of-type {
+  margin-bottom: 15px;
+}
+
+.close-box {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
